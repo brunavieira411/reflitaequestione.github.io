@@ -1,0 +1,179 @@
+html,body{
+    margin: 0;
+    background-color: white;
+}
+
+p {
+    font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+}
+
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+.container {
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white;
+}
+
+/*Menu*/
+header{
+    background-color: cornflowerblue;
+    color: cornsilk;
+}
+
+ #menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0%;
+    background-color:cornflowerblue;
+ }
+
+ li{
+    float:left;
+    padding: 20 10 20 10;
+    text-decoration-line: none; 
+    text-decoration: none;
+ }
+
+ li:hover{
+     background-color:darkcyan;
+ }
+​​​​
+#logo{
+    background-color: cornflowerblue;
+    float: left;
+}
+/* Seção 1    Video  | Empatia e mão na massa */
+.section1 {
+    display: flex;
+    background-color: #f1f1f1;
+    padding:30px;
+}
+
+#diventrevista {
+    margin: 5px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.colempatia {
+    margin: 5px;
+}
+
+#t2 {
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+/* Seção 2    Foto  | Texto | Foto  */
+.section2 {
+    display: flex;
+    padding:67.4px;
+    align-items: center; 
+}
+
+#divimagemhomem {
+    margin: 5px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+#divpq {
+    margin: 5px;
+    padding-top: 40px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+#espacamento {
+    padding-bottom: 10px;
+}
+#divimagemmesa {
+    float: left;
+    width: 20%;
+    padding: 30px
+}
+
+/* Seção 3     Vídeo manifesto  */
+.section3 {
+    display: flex;
+    background-color: #f1f1f1;
+}
+
+.mnf {
+    padding-top: 20px;
+    padding-right: 300px;
+    padding-bottom: 20px;
+    padding-left: 430px;
+}
+
+
+/* Seção 4     Texto  | Vídeo  */
+.section4 {
+    padding: 50px;
+    margin: 5px;
+}
+
+.metas1 {
+    background-color: white;
+    width: 40%;
+    padding:67.4px;
+    float:left;
+}
+.metas2 {
+    background-color: white;
+    padding:67.4px;
+}
+
+
+/* Seção 5      Texto  -  Vídeo  */
+.section5 {
+    background-color: #f1f1f1;
+}
+.agr1 {
+    padding-top: 20px;
+    padding-right: 300px;
+    padding-bottom: 20px;
+    padding-left: 300px;
+}
+
+.agr2 {
+    padding-top: 20px;
+    padding-right: 300px;
+    padding-bottom: 20px;
+    padding-left: 390px;
+}
+.section6 {
+    display: flex;
+    background-color: #619db9
+}
+.sobre {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+
+/* Responsividade */
+@media screen and (max-width: 800px) {
+    .section1, .section2, .section3, .section4 {
+        display: block;
+        width: 80%;
+        float: none;
+    }
+    .colempatia {
+        transform: translate(-50%, -50%);
+    }
+}
